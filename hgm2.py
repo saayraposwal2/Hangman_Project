@@ -78,4 +78,5 @@ while turns > 0:
  
     #Game over when turns are 0
         if turns == 0:
+            print("The word was:",word)
             print ("GAME OVER!!!")
