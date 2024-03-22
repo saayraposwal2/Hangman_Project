@@ -53,8 +53,9 @@ while turns > 0:
 
 #basic game mechanics
 
-    if failed == 0:        
-        print ("You won")
+    if failed == 0:
+        print("YES THE WORD WAS", word)
+        print ("\nYOU WON!!!!")
         break
     
     #asking user for character
