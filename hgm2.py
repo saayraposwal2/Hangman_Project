@@ -44,7 +44,7 @@ else:
     print("invalid input")
     
 guesses = ''
-print(word)
+
 
 
 while turns > 0:         
