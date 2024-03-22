@@ -2,7 +2,7 @@ import random
 #number of turns for one game play
 turns = 7
 
-print("Choose from the following topics: ")
+print("Choose desired integer from the following topics: ")
 n=int(input('''1.Fruits
 2.Animals
 3.Flowers
@@ -11,21 +11,13 @@ n=int(input('''1.Fruits
 
 #vareity of topics
 
-fruits ='''Apple Banana Apricot Atemoya Avocados Blueberry Blackcurrant Ackee
-Cranberry Cantaloupe Cherry Dragonfruit	Dates Cherimoya	Fig Coconut Cape gooseberry
-Grapefruit Gooseberries	Sweetsop Chempedak
-Hazelnut Honeyberries Durian'''.split()
+fruits ='''Apple Banana Apricot Atemoya Avocados Blueberry Blackcurrant Ackee Cranberry Cantaloupe Cherry Dragonfruit Dates Cherimoya Fig Coconut Cape gooseberry Grapefruit Gooseberries Sweetsop Chempedak Hazelnut Honeyberries Durian'''.split()
 
-animals='''Dog Kitten Cat Fish Hamster Turtle Goldfish Rabbit Mouse Puppy 
-         Parrot Cow Sheep Chicken Horse Shrimp Pig Bee Crab Deer Turkey Ducks Goat Rabbit Fish Dove'''.split()
+animals='''Dog Kitten Cat Fish Hamster Turtle Goldfish Rabbit Mouse Puppy Parrot Cow Sheep Chicken Horse Shrimp Pig Bee Crab Deer Turkey Ducks Goat Rabbit Fish Dove'''.split()
 
-flowers='''Rose	Chrysanthemum Daisy Jasmine Gerbera Carnation Poppy Tulip Lily Lotus Hibiscus Peony
-Sunflower Lilac	Aster Dandelion	Marigold Dahlia
-Lamium Datura Cosmos Broom Columbine'''.split()
+flowers='''Rose Chrysanthemum Daisy Jasmine Gerbera Carnation Poppy Tulip Lily Lotus Hibiscus Peony Sunflower Lilac Aster Dandelion Marigold Dahlia Lamium Datura Cosmos Broom Columbine'''.split()
 
-vehicles='''Auto Rickshaw Ambulance Aeroplane Boat Bicycle Bus Bike Car Crane Cycle
-Carriage Cargo Ship Ferry Gondolas Helicopter Houseboat Jetpack Limousine Lorry Motorcycle
-Metro Rowboat Ropeway Ship Scooty Scooter Tractor Train'''.split()
+vehicles='''Auto Rickshaw Ambulance Aeroplane Boat Bicycle Bus Bike Car Crane Cycle Carriage Cargo Ship Ferry Gondolas Helicopter Houseboat Jetpack Limousine Lorry Motorcycle Metro Rowboat Ropeway Ship Scooty Scooter Tractor Train'''.split()
 
 if(n==1):
     t=random.randint(0,len(fruits)-1)
