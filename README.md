@@ -1,5 +1,5 @@
 # Hangman_Project
-This repository is for Hangman project for May 2024.
+This repository is for Hangman project for Mar 2024.
 
 TEAM Member's Details:
 Vanshika Sardana as Project Manager
