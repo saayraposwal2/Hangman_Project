@@ -48,7 +48,7 @@ while turns > 0:
             print (char,end=""),    
 
         else:
-            print ("_",end=""),     
+            print ("_ ",end=""),     
             failed += 1
 
 #basic game mechanics
