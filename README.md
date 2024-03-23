@@ -2,7 +2,7 @@
 This repository is for Hangman project for Mar 2024.
 
 TEAM Member's Details:
-Vanshika Sardana as Project Manager
-Saayra Poswal as Developer
-Riya Sharma as Tester
+Saayra Poswal as Project Manager
+khushi as Developer
+Vanshika Sardana as Tester
 
