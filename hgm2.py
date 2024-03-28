@@ -11,13 +11,13 @@ n=int(input('''1.Fruits
 
 #vareity of topics
 
-fruits ='''Apple Banana Apricot Atemoya Avocados Blueberry Blackcurrant Ackee Cranberry Cantaloupe Cherry Dragonfruit Dates Cherimoya Fig Coconut Cape gooseberry Grapefruit Gooseberries Sweetsop Chempedak Hazelnut Honeyberries Durian'''.split()
+fruits ='''apple banana apricot atemoya avocados blueberry blackcurrant ackee cranberry cantaloupe cherry dragonfruit dates cherimoya fig coconut cape gooseberry grapefruit sweetsop chempedak hazelnut honeyberries durian'''.split()
 
-animals='''Dog Kitten Cat Fish Hamster Turtle Goldfish Rabbit Mouse Puppy Parrot Cow Sheep Chicken Horse Shrimp Pig Bee Crab Deer Turkey Ducks Goat Rabbit Fish Dove'''.split()
+animals='''dog kitten cat fish hamster turtle goldfish rabbit mouse puppy parrot cow sheep chicken horse shrimp pig bee crab deer turkey ducks goat rabbit fish dove'''.split()
 
-flowers='''Rose Chrysanthemum Daisy Jasmine Gerbera Carnation Poppy Tulip Lily Lotus Hibiscus Peony Sunflower Lilac Aster Dandelion Marigold Dahlia Lamium Datura Cosmos Broom Columbine'''.split()
+flowers='''rose chrysanthemum daisy jasmine gerbera carnation poppy tulip lily lotus hibiscus peony sunflower lilac aster dandelion marigold dahlia lamium datura cosmos broom columbine'''.split()
 
-vehicles='''Auto Rickshaw Ambulance Aeroplane Boat Bicycle Bus Bike Car Crane Cycle Carriage Cargo Ship Ferry Gondolas Helicopter Houseboat Jetpack Limousine Lorry Motorcycle Metro Rowboat Ropeway Ship Scooty Scooter Tractor Train'''.split()
+vehicles='''auto rickshaw ambulance aeroplane boat bicycle bus bike car crane cycle carriage cargo ship ferry gondolas helicopter houseboat jetpack limousine lorry motorcycle metro rowboat ropeway ship scooty tractor train'''.split()
 
 if(n==1):
     t=random.randint(0,len(fruits)-1)
