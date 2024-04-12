@@ -56,7 +56,7 @@ while c in "yY":
     #basic game mechanics
 
         if failed == 0:        
-            print ("You won")
+            print ("You won!!!")
             break
     
         #asking user for character
